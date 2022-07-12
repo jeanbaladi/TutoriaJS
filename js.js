@@ -125,7 +125,7 @@ function question(player){
             stage++;
             let resQ1 = "B" == document.form.response.value;
             let resQ2 = "B" == document.form.response.value;
-            let resQ3 = "C" == document.form.response.value;
+            let resQ3 = "A" == document.form.response.value;
             let resQ4 = "A" == document.form.response.value;
             let resQ5 = "B" == document.form.response.value;
             let resQ6 = "B" == document.form.response.value;
