@@ -5,6 +5,7 @@ var style = `
         width: 50px;
         height: 50px;
         background: red;
+        transition-duration: 500ms;
     }
     .space {
         width: 100%;
