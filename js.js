@@ -1,6 +1,6 @@
 
 var style = `
-    @import "node_modules/materialize-css/dist/css/materialize.min.css";
+    @import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
     .player {
         width: 50px;
         height: 50px;
@@ -115,6 +115,7 @@ function question(player){
     header.classList.add("header--flex")
     img.classList.add("col")
     img.classList.add("s10")
+    img.classList.add("l6")
 
     document.getElementById("btnNext").addEventListener("click", () => {
         if(document.form.response.value != false){
