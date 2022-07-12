@@ -24,7 +24,7 @@ var style = `
     }
     .flex {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
     .header--flex {
         display: flex;
@@ -88,6 +88,7 @@ function initialTest(){
 function question(player){
     let res = `
                 <form class="col s2 flex" name="form">
+                <p>Selecciona la respuesta</p>
                 <p>
                 <label>
                     <input name="response" value="A" type="radio" />
@@ -103,7 +104,7 @@ function question(player){
                 <p>
                 <label>
                     <input name="response" value="C" type="radio"  />
-                    <span>C</span>
+                    <span>defaultCondition</span>
                 </label>
                 </p>
                 <a id="btnNext" style="margin: 0 auto;" class="waves-effect waves-light btn">Siguiente</a>
